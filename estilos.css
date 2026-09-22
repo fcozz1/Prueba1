@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    margin: 0;
+    padding: 30px;
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.tarea {
+    background: white;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.tarea h3 {
+    margin-top: 0;
+}
+
+.pendiente {
+    color: #d97706;
+    font-weight: bold;
+}
+
+.terminada {
+    color: #16a34a;
+    font-weight: bold;
+}
+
+.botones {
+    margin-top: 15px;
+}
+
+.botones a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 8px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background: #e5e7eb;
+    color: #111;
+}
+
+.botones a:hover {
+    background: #d1d5db;
+}
